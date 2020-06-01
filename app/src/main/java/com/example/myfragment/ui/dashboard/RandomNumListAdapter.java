@@ -18,6 +18,8 @@ public class RandomNumListAdapter extends RecyclerView.Adapter<RecyclerViewHolde
         this.random = new Random(seed);
     }
 
+    //수정수정
+
     @Override
     public int getItemViewType(final int position) {
         return R.layout.item_text;
